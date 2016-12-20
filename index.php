@@ -11,7 +11,11 @@
             <div class="column small-12 large-8 blog-main">
                 <?php if(have_posts()):?>
                     <?php if(is_archive()):?>
+<<<<<<< HEAD
                         <h1> bbbb
+=======
+                        <h1> aaaaa
+>>>>>>> 0d11c76eb4cb484e33dd5fe4e9f773ba273a886f
                             <?php if(is_category()) : ?>
                                     <?php echo get_the_archive_title();?>
                                     <?php else :?>
