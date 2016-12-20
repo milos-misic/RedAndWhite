@@ -11,7 +11,7 @@
             <div class="column small-12 large-8 blog-main">
                 <?php if(have_posts()):?>
                     <?php if(is_archive()):?>
-                        <h1>
+                        <h1> aaaaa
                             <?php if(is_category()) : ?>
                                     <?php echo get_the_archive_title();?>
                                     <?php else :?>
