@@ -1,0 +1,19 @@
+/*=Typography
+---------------------------------------------------------------------*/
+
+
+/**
+ * Header font sizes are set under the foundation settings. This can be
+ * used to overwrite those or for any additional typography styles.
+ */
+
+h2 {
+    color: $font2;
+}
+
+h3 {
+    font-size: 2rem;
+}
+p {
+        color: dimgray;
+    }

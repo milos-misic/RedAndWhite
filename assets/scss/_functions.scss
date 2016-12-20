@@ -1,0 +1,9 @@
+// Button hover
+@function button-hover($color) {
+    @if $color == $header-footer {
+        @return #990000;
+    }
+    @else {
+        @return $header-footer;
+    }
+}

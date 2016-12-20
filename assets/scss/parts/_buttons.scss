@@ -1,0 +1,59 @@
+// Buttons
+// ----------------------------------------------
+a.secondary.button {
+    background-color: $font2;
+    &:hover {
+        background-color: button-hover($header-footer);
+        span {
+            color: $font2;
+        }
+    }
+    span {
+        color: #990000;
+    }
+}
+
+section.newsletter {
+    .button {
+        background-color: #990000;
+        &:hover {
+            background-color: button-hover(#990000);
+        }
+    }
+}
+
+.menu .active a {
+    background-color: darken($header-footer, 6.5%);
+}
+
+.search-submit {
+    background-color: $font2;
+    padding: 0.25em 0.75em;
+    &:hover {
+        background-color: button-hover($header-footer);
+        span {
+            color: $font2;
+        }
+    }
+    span {
+        color: #990000;
+    }
+}
+
+input {
+    color: $font;
+}
+
+.aaa {
+    background-color: #990000;
+    padding: 0.45em 0.95em;
+    &:hover {
+        background-color: button-hover(#990000);
+        span {
+            color: $font2;
+        }
+    }
+    span {
+        color: $font2;
+    }
+}

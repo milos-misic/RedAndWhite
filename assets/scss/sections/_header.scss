@@ -1,0 +1,124 @@
+    /*=Header
+---------------------------------------------------------------------*/
+
+    .site-header {
+        position: relative;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: $header-footer;
+        border-bottom: 1px solid #fff;
+        z-index: 9999;
+    }
+
+    .head {
+        background-color: $header-footer;
+        border-bottom: 1px solid #fff;
+    }
+
+    .top-bar {
+        background-color: $header-footer;
+        ul {
+            background-color: $header-footer;
+        }
+    }
+
+    .top-bar-left,
+    .top-bar-right {
+        margin-top: 1.2rem;
+        ul {
+            li {
+                a {
+                    border-bottom: 2px solid transparent;
+                    transition: border-bottom 0.2s;
+                    &:hover {
+                        border-bottom: 2px solid #fff;
+                    }
+                    &:visited {
+                        color: $font;
+                    }
+                }
+            }
+        }
+    }
+
+    .menu .current-menu-item {
+        border-top: 2px solid #fff;
+    }
+    /*.top-bar {
+    background-color: $header-footer;
+    margin: 0 9rem;
+    padding: 0;
+    ;
+    ul {
+        background-color: $header-footer;
+    }
+}
+*/
+    /*.top-bar-left ul li a {
+    padding: 1.8rem 1.3rem;
+    &:hover {
+        background-color: darken($header-footer, 6.5%);
+    }
+}*/
+    /*.top-bar-right {
+    margin: 0 2rem;
+    ul li a {
+        padding: 1.8rem 1.3rem;
+        &:hover {
+            background-color: darken($header-footer, 6.5%);
+        }
+    }
+}
+*/
+    /*  header.header {
+        background-color: $header-footer;
+        border-bottom: 1px solid #fff;
+        .header-text {
+            padding-top: 0.8rem;
+            padding-left: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-menu {
+            padding-left: 3rem;
+            ul li a {
+                padding: 2.2rem 1.3rem;
+                &:hover {
+                    @include dark($header-footer);
+                }
+                &:visited {
+                    color: $font;
+                    ;
+                }
+            }
+            .menu .current-menu-item {
+                @include dark($header-footer);
+            }
+        }
+        .header-links {
+            ul li a {
+                padding: 2.2rem 0.8rem;
+                &:hover {
+                    @include dark($header-footer);
+                }
+            }
+            .fa {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .menu .active {
+        @include dark($header-footer);
+    }
+
+    .title-bar {
+        background-color: $header-footer;
+    }
+    */

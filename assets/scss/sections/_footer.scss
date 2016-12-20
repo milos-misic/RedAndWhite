@@ -1,0 +1,50 @@
+/*=Footer
+---------------------------------------------------------------------*/
+
+.site-footer {
+    // footer styles
+}
+
+.footer {
+    background-color: #990000;
+    padding-top: 1rem;
+    border-top: 0.1em solid #ccc;
+    .text {
+        float: left;
+    }
+    p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: $font;
+        span {
+            color: $font2;
+        }
+    }
+    ul {
+        li {
+            a {
+                padding: 1rem 0.5rem;
+                &:hover {
+                    border-bottom: 2px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+
+/*--------NEWSLETTER------*/
+
+.form-msg {
+    padding: 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+.error {
+    background-color: red;
+}
+
+.success {
+    background-color: lawngreen;
+}

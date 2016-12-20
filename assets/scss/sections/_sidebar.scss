@@ -1,0 +1,26 @@
+/*=Sidebar
+---------------------------------------------------------------------*/
+
+.sidebar {
+    // sidebar styles
+}
+
+
+/*--SIDEBAR--*/
+
+.sidebar-text {
+    a {
+        color: dimgrey;
+        font-weight: 600;
+        &:hover {
+            color: $header-footer;
+        }
+    }
+    li {
+        list-style-type: none;
+        border-bottom: 1px dotted black;
+    }
+    h4 {
+        color: $header-footer;
+    }
+}

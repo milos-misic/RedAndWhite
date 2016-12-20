@@ -1,0 +1,74 @@
+ /*=Base
+---------------------------------------------------------------------*/
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ *:focus {
+     outline: none;
+ }
+
+ a {
+     text-decoration: none;
+     transition: color 0.3s ease;
+     color: $font;
+     &:hover {
+         color: $font;
+     }
+     &:active {
+         color: #990000;
+     }
+ }
+
+ hr {
+     display: block;
+     margin: 0.1em 0;
+     padding: 0;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #ccc;
+ }
+
+ h1 {
+     color: $font;
+     span {
+         color: #990000;
+     }
+ }
+
+ p {
+     color: $font;
+ }
+
+ .showcase p::first-letter,
+ .facts p::first-letter {
+     font-weight: bold;
+     font-size: 180%;
+     font-family: cursive;
+     color: #990000;
+ }
+
+ h3 {
+     color: $font;
+     font-size: 5rem;
+ }
+
+ i {
+     color: $font;
+ }
+
+ h4 a {
+     color: $header-footer;
+     &:hover {
+         color: dimgrey;
+     }
+ }
+ /*------VIDEO-----*/
+
+ .video-h3 {
+     color: $header-footer;
+     text-align: center;
+     font-size: 1.5rem;
+ }

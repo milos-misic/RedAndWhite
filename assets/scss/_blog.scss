@@ -1,0 +1,57 @@
+/*=Blog
+---------------------------------------------------------------------*/
+
+.blog-main {
+    opacity: 0.8;
+    margin: 5rem 0;
+    p {
+        color: dimgray;
+    }
+    h2 {
+        color: $font2;
+    }
+}
+
+.sidebar {
+    opacity: 0.8;
+    margin: 5rem 0 7.5rem 0;
+    p {
+        color: dimgray;
+    }
+}
+
+.callout {
+    background-color: #F4F7F2;
+    border: none;
+    .secondary {
+        margin-bottom: 1.15rem;
+    }
+    .meta {
+        font-weight: 600;
+    }
+}
+
+.blog-page {
+    height: auto;
+}
+
+.callout {
+    h2 a {
+        color: $header-footer;
+    }
+    p a {
+        color: $header-footer;
+        &:hover {
+            color: dimgrey;
+        }
+    }
+}
+
+.blog-page .blog-main h1 {
+    background-color: #F4F7F2;
+    opacity: 0.8;
+    color: dimgrey;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+}
